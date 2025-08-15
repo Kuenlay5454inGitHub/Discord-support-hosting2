@@ -46,3 +46,36 @@ A comprehensive Discord support ticket system built with Discord.js v14. This bo
 5. Run the bot: `node index.js`
 
 ## Project Structure
+
+```
+├── commands/           # Slash commands
+├── config/            # Configuration and storage
+├── events/            # Discord event handlers
+├── handlers/          # Button and modal handlers
+├── utils/             # Utility functions
+└── index.js          # Main bot file
+```
+
+## Requirements
+
+- Node.js 16.9.0 or higher
+- Discord.js v14
+- A Discord bot application with proper permissions
+
+## Permissions Required
+
+The bot needs the following Discord permissions:
+- Send Messages
+- Use Slash Commands
+- Manage Channels
+- View Channels
+- Embed Links
+- Read Message History
+
+## Support
+
+For support or questions about this bot, create an issue in this repository or contact the development team.
+
+## License
+
+This project is open source and available under the MIT License.
